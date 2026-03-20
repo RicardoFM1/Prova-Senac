@@ -6,7 +6,7 @@ class ProdutoController {
     public $service;
 
     public function _construct() {
-        $this->$service = new ProdutoService();
+        $this->service = new ProdutoService();
     }
 
     public function listarProdutos () {
